@@ -1,0 +1,102 @@
+#success_message {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-image: url("/css/images/image.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+
+  }
+  
+  legend {
+    font-family: "Krona One", sans-serif;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 30px;
+  }
+  
+  .well {
+    max-height: 100%;
+    min-width: 90%;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background:rgba(225, 225, 225, 0.4);
+   
+    animation: bg-animation 15s ease-in-out infinite alternate;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: auto;
+  }
+  
+
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(225, 225, 225, 0.4);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #78586f;
+  }
+  
+  .form-group {
+    position: relative;
+    max-height: 100vh;
+    position: relative;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 0%);
+  }
+  label {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    align-items: center;
+    width: 240px;
+    margin-left: 0px;
+    height: 40px;
+    outline: none;
+    background: none;
+    border: 0;
+    display: block;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  
+  button[type="submit"] {
+    position: relative;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: grey;
+    text-decoration: none;
+    border: 2px solid white;
+    transition: 0.15s;
+  }
+  button[type="submit"]:hover {
+    background-color: rgb(249, 60, 82);
+    border: 2px solid rgb(249, 60, 79);
+  }

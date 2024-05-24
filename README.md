@@ -1,6 +1,7 @@
 This project is a student detail form developed using HTML, CSS, JavaScript, and the MERN stack (MongoDB, Express.js,Node.js). It provides a user-friendly interface for entering and managing student information.
 
 FEATURES
+
 •	User-friendly Interface: The form offers an intuitive interface for entering student details such as name, email, address, etc.
 •	Validation: Client-side validation ensures that the entered data is accurate and meets the required criteria.
 •	Backend Integration: Utilizes the MERN stack to store student data in a MongoDB database, providing seamless integration between the frontend and backend.
